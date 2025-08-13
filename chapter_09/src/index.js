@@ -6,11 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import Greeting from "./Greeting";
 import LoginControl from "./LoginControl";
 import Mailbox from "./Mailbox";
+import MainPage from "./MainPage";
+import Toolbar from "./Toolbar";
+import LandingPage from "./LandingPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Mailbox unreadMessages = {["배고파", "배아파", "졸려"]} />
+    {/*<Mailbox unreadMessages = {["배고파", "배아파", "졸려"]} />*/}
+    <LandingPage />
   </React.StrictMode>
 );
 
