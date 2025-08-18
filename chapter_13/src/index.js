@@ -3,19 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Greeting from "./Greeting";
-import LoginControl from "./LoginControl";
-import Mailbox from "./Mailbox";
-import MainPage from "./MainPage";
-import Toolbar from "./Toolbar";
-import LandingPage from "./LandingPage";
-import Web from "./chapter_09/Web";
+import WelcomeDialog from "./chapter_13/WelcomeDialog";
+import WelcomeDialog1 from "./chapter_13/WelcomeDialog1";
+import SignUpDialog from "./chapter_13/SignUpDialog";
+import ProfileCard from "./chapter_13/ProfileCard";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/*<Mailbox unreadMessages = {["배고파", "배아파", "졸려"]} />*/}
-    <Web />
+    <ProfileCard />
   </React.StrictMode>
 );
 
